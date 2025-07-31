@@ -51,15 +51,15 @@ The custom-designed 3D-printed enclosure for the probe.
 <table>
   <tr>
     <td align="center">
-      <img src="Pictures/3.png" width="300px"/><br/>
+      <img src="Pictures/3.png" width="320px"/><br/>
       <sub><strong>Isometric View</strong></sub>
     </td>
     <td align="center">
-      <img src="Pictures/4.png" width="200px"/><br/>
+      <img src="Pictures/4.png" width="210px"/><br/>
       <sub><strong>Bottom View</strong></sub>
     </td>
     <td align="center">
-      <img src="Pictures/5.png" width="300px"/><br/>
+      <img src="Pictures/5.png" width="270px"/><br/>
       <sub><strong>Top View</strong></sub>
     </td>
   </tr>
@@ -80,7 +80,7 @@ The layout of the Printed Circuit Board (PCB).
       <sub><strong>Bottom Layer</strong></sub>
     </td>
     <td align="center">
-      <img src="Pictures/8.png" width="300px"/><br/>
+      <img src="Pictures/8.png" width="310px"/><br/>
       <sub><strong>3D Model</strong></sub>
     </td>
   </tr>
@@ -89,7 +89,7 @@ The layout of the Printed Circuit Board (PCB).
 ## Test Results
 The following image shows the probe's output accurately tracking the actual input signal with varying amplitudes.
 <p align="center">
-    <img src="Pictures/test_results1.png" width="400"/>
+    <img src="Pictures/test_results1.png" width="370"/>
     <img src="Pictures/test_results2.png" width="400"/>
 </p>
 
@@ -97,14 +97,14 @@ The following image shows the probe's output accurately tracking the actual inpu
 The assembled Up-cp0001A current probe in its packaging.
 
 <p align="center">
-    <img src="Pictures/Final.jpg" width="700"/>
+    <img src="Pictures/Final.jpg" width="600"/>
 </p>
 
 ### Internal Structure
 A view inside the enclosure showing the placement of the main components, including the PCB, Hall effect sensor, and power converter.
 
 <p align="center">
-    <img src="Pictures/9.png" width="700"/>
+    <img src="Pictures/9.png" width="600"/>
 </p>
 
 ---
@@ -113,17 +113,17 @@ A view inside the enclosure showing the placement of the main components, includ
 
 1.  **Connect the probes** to the input terminals of the device.
 <p align="center">
-    <img src="Pictures/Picture1.jpg" width="400"/>
+    <img src="Pictures/Picture1.png" width="300"/>
 </p>
 
 2.  **Connect the USB cable** to the USB-C port for power.
 <p align="center">
-    <img src="Pictures/Picture3.jpg" width="400"/>
+    <img src="Pictures/Picture3.jpg" width="300"/>
 </p>
 
 3.  **Connect the BNC connector** to the oscilloscope's input channel.
 <p align="center">
-    <img src="Pictures/Picture2.jpg" width="400"/>
+    <img src="Pictures/Picture2.png" width="300"/>
 </p>
 
 4.  Finally, **place the current probes** at the desired location in your circuit to observe the waveform on the oscilloscope.
