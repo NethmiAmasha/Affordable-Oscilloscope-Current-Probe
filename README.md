@@ -34,58 +34,97 @@ Many electronics enthusiasts and professionals rely on USB or handheld oscillosc
 ## Product Architecture
 The current probe operates based on a Hall effect sensor. The signal from the sensor passes through a DC Offset Remover, an Amplifier, and a Noise Filter before being sent to the output. The system is powered by a +5V input, which is also used to generate a -5V rail.
 
-![Product Architecture Diagram](Pictures/image%20(10).png)
+<p align="center">
+  <img src="Pictures/1.png" width="700"/>
+</p>
 
 ## Schematic Diagram
 The electronic schematic for the probe's signal conditioning and filtering circuitry.
 
-![Schematic Diagram](Pictures/image%20(9).png)
+<p align="center">
+  <img src="Pictures/2.png" width="700"/>
+</p>
 
 ## Enclosure Design
 The custom-designed 3D-printed enclosure for the probe.
 
-![Enclosure Isometric View](Pictures/image%20(8).png)
-*Figure: Enclosure Isometric View*
+<table>
+  <tr>
+    <td align="center">
+      <img src="Pictures/3.png" width="300px"/><br/>
+      <sub><strong>Isometric View</strong></sub>
+    </td>
+    <td align="center">
+      <img src="Pictures/4.png" width="200px"/><br/>
+      <sub><strong>Bottom View</strong></sub>
+    </td>
+    <td align="center">
+      <img src="Pictures/5.png" width="300px"/><br/>
+      <sub><strong>Top View</strong></sub>
+    </td>
+  </tr>
+</table>
 
-![Enclosure Top View](Pictures/image%20(6).png) ![Enclosure Bottom View](Pictures/image%20(7).png)
-*Figure: Enclosure Top and Bottom Views*
 
 ## PCB Design
 The layout of the Printed Circuit Board (PCB).
 
-**Top Layer**
-![PCB Top Layer](Pictures/image%20(5).png)
-
-**Bottom Layer**
-![PCB Bottom Layer](Pictures/image%20(4).png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="Pictures/6.png" width="300px"/><br/>
+      <sub><strong>Top Layer</strong></sub>
+    </td>
+    <td align="center">
+      <img src="Pictures/7.png" width="300px"/><br/>
+      <sub><strong>Bottom Layer</strong></sub>
+    </td>
+    <td align="center">
+      <img src="Pictures/8.png" width="300px"/><br/>
+      <sub><strong>3D Model</strong></sub>
+    </td>
+  </tr>
+</table>
 
 ## Test Results
 The following image shows the probe's output accurately tracking the actual input signal with varying amplitudes.
-`![Test Results](Pictures/test_results1.png)`
-`![Test Results](Pictures/test_results1.png)`
+<p align="center">
+    <img src="Pictures/test_results1.png" width="400"/>
+    <img src="Pictures/test_results2.png" width="400"/>
+</p>
 
 ## Final Product
 The assembled Up-cp0001A current probe in its packaging.
 
-![Final Product](Pictures/image%20(11).png)
+<p align="center">
+    <img src="Pictures/Final.jpg" width="700"/>
+</p>
 
 ### Internal Structure
 A view inside the enclosure showing the placement of the main components, including the PCB, Hall effect sensor, and power converter.
 
-![Internal Structure](Pictures/image%20(3).png)
+<p align="center">
+    <img src="Pictures/9.png" width="700"/>
+</p>
 
 ---
 
 ## Usage Instructions
 
 1.  **Connect the probes** to the input terminals of the device.
-    ![Connect Probes](Pictures/image%20(2).png)
+<p align="center">
+    <img src="Pictures/Picture1.jpg" width="400"/>
+</p>
 
 2.  **Connect the USB cable** to the USB-C port for power.
-    ![Connect USB](Pictures/image.png)
+<p align="center">
+    <img src="Pictures/Picture3.jpg" width="400"/>
+</p>
 
 3.  **Connect the BNC connector** to the oscilloscope's input channel.
-    ![Connect BNC](Pictures/image%20(1).png)
+<p align="center">
+    <img src="Pictures/Picture2.jpg" width="400"/>
+</p>
 
 4.  Finally, **place the current probes** at the desired location in your circuit to observe the waveform on the oscilloscope.
 
